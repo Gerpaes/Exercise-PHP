@@ -10,7 +10,17 @@ class P47_ArrayPrinter
 
     public function printNeatly(array $array): void
     {
-        // Write your code here
+        $lastIndex = count($array) - 1;
+
+        for ($i = 0; $i <= $lastIndex; $i++) {
+            echo $array[$i];
+
+            if ($i < $lastIndex) {
+                echo ", ";
+            }
+        }
+
+        echo "\n";
        
     }
 }

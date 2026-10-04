@@ -7,7 +7,9 @@ class P06_SumOfTwoNumbers {
         $numB = 200;
 
         // Calculate the sum and output the result
+        $numC = $numA + $numB;
         // Write your program here
+        echo "The sum of the numbers is $numC\n";
         
     }
 }

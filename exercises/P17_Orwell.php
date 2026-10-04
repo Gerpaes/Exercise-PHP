@@ -11,7 +11,10 @@ class P17_Orwell
         $input = trim(fgets($GLOBALS['STDIN'] ?? STDIN));
 
         // Check if the input is exactly 1984
-        // Write your code here
+        if ($input == 1984) {
+            // Write your code here
+            echo "Orwell\n";
+            }
        
     }
 }

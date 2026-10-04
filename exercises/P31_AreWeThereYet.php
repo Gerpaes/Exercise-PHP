@@ -4,7 +4,10 @@ class P31_AreWeThereYet
 {
     public function main(): void
     {
-        // Write your code here
+        do {
+            echo "Give a number: ";
+            $a = trim(fgets($GLOBALS['STDIN'] ?? STDIN));
+        } while ($a != 4);
        
     }
 }
